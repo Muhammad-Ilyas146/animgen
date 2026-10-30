@@ -1,6 +1,6 @@
 {
   "run_id": "2026-10-30_all_plainsd",
-  "clip_score_mean": 33.83,
+  "clip_score_mean": 33.829,
   "dino_identity_per_storyboard_mean": 0.527,
   "dino_floor_cross_storyboard": 0.112,
   "dino_within_storyboard_all_shots": 0.472,
@@ -14,5 +14,5 @@
     "clip": "openai/clip-vit-base-patch32",
     "dino": "facebook/dinov2-small"
   },
-  "notes": "Whole-image DINO, CLS token. Prompts truncated at 77 tokens for 2 shots (sb07, sb08)."
+  "notes": "Whole-image DINO, CLS token. Prompts capped at 75 content tokens by build_shot_prompt (only 2 shots in sb08 needed trimming; images unchanged since CLIP truncated them identically). Floor and within-storyboard values computed before the trim fix; no change expected."
 }

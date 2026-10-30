@@ -2,7 +2,7 @@ import json, pathlib, platform
 from importlib.metadata import version
 import torch
 from animgen.parser.schema import Storyboard
-from animgen.parser.prompts import build_shot_prompt, NEGATIVE_PROMPT
+from animgen.keyframes.prompting import build_shot_prompt, NEGATIVE_PROMPT
 
 RUNS = pathlib.Path("/content/drive/MyDrive/animgen_data/runs")
 

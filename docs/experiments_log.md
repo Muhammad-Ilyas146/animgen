@@ -20,3 +20,9 @@
 - Same prompt, 4 seeds (sb02, sb03, sb10): mean 0.631, a reference level for prompt-only SD
 - Caveat: whole-image DINO mixes character and scene similarity. Consider character crops later
 - Values saved in eval/baseline_calibration.json
+
+## 2026-10-30 | Ilyas | Step 4k to 4r: 77-token fix
+- build_shot_prompt now trims to 75 content tokens (setting, then style, then action). 59 of 61 prompts unchanged
+- Bug found: eval/baselines.py imported build_shot_prompt from parser.prompts (wrong module). Fixed to keyframes.prompting
+- Regenerated 2 sb08_race images: identical in effect (CLIP had already truncated them). Final baseline: CLIP 33.83, DINO identity 0.527
+- Lesson: after editing modules, verify in a fresh process (!python -c ...), not with importlib.reload
