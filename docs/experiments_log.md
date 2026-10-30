@@ -26,3 +26,11 @@
 - Bug found: eval/baselines.py imported build_shot_prompt from parser.prompts (wrong module). Fixed to keyframes.prompting
 - Regenerated 2 sb08_race images: identical in effect (CLIP had already truncated them). Final baseline: CLIP 33.83, DINO identity 0.527
 - Lesson: after editing modules, verify in a fresh process (!python -c ...), not with importlib.reload
+
+## 2026-10-30 | Ilyas | Step 5: ControlNet keyframes (no LoRA), blob templates
+- ControlNet canny and depth (SD 1.5, lllyasviel) run on T4: peak VRAM 5.08 GB, about 6 s per image
+- keyframes/templates.py: v1 humanoid blobs + gradient ground (blob foxes, striped ground, worse than baseline);
+  v2 neutral ellipses + flat ground
+- Sweep on sb02_fox: s=0.4 is the only usable scale; s>=0.5 distorts the fox; close_up fails at all scales (tail only or toy-like)
+- Conclusion: text-only blob layouts give weak framing control and do not improve identity. Parked.
+- Next: character data + LoRA (Step 6, 7). Revisit ControlNet with depth/lineart derived from character reference images
