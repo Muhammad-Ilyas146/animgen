@@ -14,3 +14,9 @@
 - Added eval/metrics.py (CLIPScore, DINOv2 identity) and eval/run_eval.py
 - Baseline 2026-10-30_all_plainsd: CLIP 33.83 (61 shots), DINO identity 0.52 (per character rows; leo/maya and farmer/dog share shots, so double-counted)
 - Repo fix: parser/prompts.py had been overwritten with prompt-builder code in the Step 4 commit; restored from 0be9132 and recreated keyframes/prompting.py
+
+## 2026-10-30 | Ilyas | Step 4h/4i: metric calibration
+- Floor (different storyboards): 0.112. Within-storyboard, all shots: 0.472. Per-storyboard character identity: 0.527 (baseline number to report)
+- Same prompt, 4 seeds (sb02, sb03, sb10): mean 0.631, a reference level for prompt-only SD
+- Caveat: whole-image DINO mixes character and scene similarity. Consider character crops later
+- Values saved in eval/baseline_calibration.json
