@@ -1,0 +1,91 @@
+{
+  "title": "Foxy's Frozen Frolic",
+  "style": "whimsical watercolor animation",
+  "characters": [
+    {
+      "id": "foxy",
+      "name": "Foxy",
+      "appearance": "small orange fox with a fluffy tail and a bright green knitted scarf"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1_forest_walk",
+      "setting": "snowy forest at dawn, soft blue and pink light",
+      "shots": [
+        {
+          "id": "s1_shot1",
+          "description": "Wide shot of a snow-covered forest, foxy tiptoeing carefully between frosted trees",
+          "characters": [
+            "foxy"
+          ],
+          "camera": "wide",
+          "duration_sec": 5.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot2",
+          "description": "Medium shot of foxy's paws making delicate prints in the fresh snow",
+          "characters": [
+            "foxy"
+          ],
+          "camera": "medium",
+          "duration_sec": 3.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s2_pond_discovery",
+      "setting": "edge of the snowy forest, clearing with a frozen pond",
+      "shots": [
+        {
+          "id": "s2_shot1",
+          "description": "Foxy peeks through a snow-laden bush, eyes widening as it sees a large, smooth frozen pond",
+          "characters": [
+            "foxy"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s2_shot2",
+          "description": "Close-up of foxy's curious face, nose twitching, then looking down at the gleaming ice",
+          "characters": [
+            "foxy"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s3_ice_slide",
+      "setting": "frozen pond, surrounded by snowy trees",
+      "shots": [
+        {
+          "id": "s3_shot1",
+          "description": "Foxy tentatively steps onto the ice, slipping slightly, then gaining balance",
+          "characters": [
+            "foxy"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s3_shot2",
+          "description": "Wide shot of foxy playfully sliding and spinning across the smooth, frozen pond, scarf fluttering",
+          "characters": [
+            "foxy"
+          ],
+          "camera": "wide",
+          "duration_sec": 6.0,
+          "dialogue": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "Midnight Mischief",
+  "style": "stylized 2D animation with dark tones",
+  "characters": [
+    {
+      "id": "shadow",
+      "name": "Shadow",
+      "appearance": "sleek grey cat with four white paws (socks)"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "setting": "dimly lit living room, night",
+      "shots": [
+        {
+          "id": "s1_shot1",
+          "description": "Wide shot of a dark living room, only faint moonlight through a window. Two glowing cat eyes appear from the shadows.",
+          "characters": [
+            "shadow"
+          ],
+          "camera": "wide",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot2",
+          "description": "Shadow the cat creeps low to the ground, moving silently across the carpet.",
+          "characters": [
+            "shadow"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "setting": "living room, near a coffee table",
+      "shots": [
+        {
+          "id": "s2_shot1",
+          "description": "Close-up of Shadow's white-socked paws silently padding towards a coffee table.",
+          "characters": [
+            "shadow"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        },
+        {
+          "id": "s2_shot2",
+          "description": "Shadow raises its head, looking up at a glass of water on the edge of the coffee table.",
+          "characters": [
+            "shadow"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "setting": "living room, coffee table",
+      "shots": [
+        {
+          "id": "s3_shot1",
+          "description": "Shadow's paw extends, gently batting at the glass.",
+          "characters": [
+            "shadow"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        },
+        {
+          "id": "s3_shot2",
+          "description": "The glass teeters precariously, then slides off the table.",
+          "characters": [
+            "shadow"
+          ],
+          "camera": "medium",
+          "duration_sec": 3.0,
+          "dialogue": null
+        },
+        {
+          "id": "s3_shot3",
+          "description": "Wide shot of the living room as the glass shatters on the floor. Shadow is startled, ears flattened, looking at the broken glass.",
+          "characters": [
+            "shadow"
+          ],
+          "camera": "wide",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    }
+  ]
+}

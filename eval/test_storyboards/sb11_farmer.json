@@ -1,0 +1,74 @@
+{
+  "title": "Evening Stroll",
+  "style": "realistic oil painting",
+  "characters": [
+    {
+      "id": "farmer_j",
+      "name": "Jed",
+      "appearance": "older man with a kind face, blue denim overalls, red plaid shirt, straw hat"
+    },
+    {
+      "id": "dog_b",
+      "name": "Buster",
+      "appearance": "medium-sized brown dog with short fur and floppy ears"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1_walk",
+      "setting": "vast wheat field at sunset",
+      "shots": [
+        {
+          "id": "s1_shot1",
+          "description": "A farmer and his brown dog walk side-by-side through a golden wheat field, sun low on the horizon",
+          "characters": [
+            "farmer_j",
+            "dog_b"
+          ],
+          "camera": "wide",
+          "duration_sec": 6.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot2",
+          "description": "The farmer smiles gently as the dog trots beside him, wheat stalks brushing their legs",
+          "characters": [
+            "farmer_j",
+            "dog_b"
+          ],
+          "camera": "medium",
+          "duration_sec": 5.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s2_rest",
+      "setting": "edge of the wheat field, under a large oak tree",
+      "shots": [
+        {
+          "id": "s2_shot1",
+          "description": "The farmer and dog approach a large oak tree at the field's edge, casting long shadows",
+          "characters": [
+            "farmer_j",
+            "dog_b"
+          ],
+          "camera": "wide",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s2_shot2",
+          "description": "The farmer sits against the tree trunk, petting the dog who rests his head on the farmer's lap, both looking towards the sunset",
+          "characters": [
+            "farmer_j",
+            "dog_b"
+          ],
+          "camera": "medium",
+          "duration_sec": 7.0,
+          "dialogue": null
+        }
+      ]
+    }
+  ]
+}

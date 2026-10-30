@@ -1,0 +1,59 @@
+{
+  "title": "Lunar Greeting",
+  "style": "realistic 3D animation",
+  "characters": [
+    {
+      "id": "jax",
+      "name": "Commander Jax",
+      "appearance": "bulky white space suit, dark reflective visor, small national flag patch on shoulder"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "setting": "barren lunar surface, Earth visible in the black sky",
+      "shots": [
+        {
+          "id": "s1_shot1",
+          "description": "Commander Jax walks with deliberate steps across the grey lunar dust, carrying a folded flag pole.",
+          "characters": [
+            "jax"
+          ],
+          "camera": "wide",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot2",
+          "description": "Commander Jax kneels and plants the small flag firmly into the lunar soil.",
+          "characters": [
+            "jax"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot3",
+          "description": "Commander Jax stands up, turns, and slowly looks up towards the distant, vibrant Earth.",
+          "characters": [
+            "jax"
+          ],
+          "camera": "close_up",
+          "duration_sec": 5.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot4",
+          "description": "Commander Jax raises a gloved hand and waves towards the Earth, the flag standing proudly beside them.",
+          "characters": [
+            "jax"
+          ],
+          "camera": "wide",
+          "duration_sec": 3.0,
+          "dialogue": null
+        }
+      ]
+    }
+  ]
+}

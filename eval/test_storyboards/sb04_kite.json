@@ -1,0 +1,102 @@
+{
+  "title": "Kite Flight",
+  "style": "vibrant cartoon animation",
+  "characters": [
+    {
+      "id": "leo",
+      "name": "Leo",
+      "appearance": "boy with short brown hair, blue hoodie, jeans, red sneakers"
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "appearance": "girl with blonde pigtails, pink t-shirt, denim overalls, white sneakers"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "setting": "Grassy hill, sunny and windy day",
+      "shots": [
+        {
+          "id": "s1_shot1",
+          "description": "Leo and Maya walk up a grassy hill, Leo carrying a folded red kite",
+          "characters": [
+            "leo",
+            "maya"
+          ],
+          "camera": "wide",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot2",
+          "description": "Maya unwinds the kite string while Leo holds the kite, both looking up at the sky",
+          "characters": [
+            "leo",
+            "maya"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "setting": "Grassy hill, sunny and windy day",
+      "shots": [
+        {
+          "id": "s2_shot1",
+          "description": "Leo runs forward holding the kite, Maya runs behind him holding the string reel, the kite wobbles",
+          "characters": [
+            "leo",
+            "maya"
+          ],
+          "camera": "wide",
+          "duration_sec": 5.0,
+          "dialogue": null
+        },
+        {
+          "id": "s2_shot2",
+          "description": "Close-up on Leo and Maya's determined faces as they try to get the kite airborne",
+          "characters": [
+            "leo",
+            "maya"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "setting": "Grassy hill, sunny and windy day",
+      "shots": [
+        {
+          "id": "s3_shot1",
+          "description": "The red kite soars high in the blue sky, with Leo and Maya cheering below",
+          "characters": [
+            "leo",
+            "maya"
+          ],
+          "camera": "wide",
+          "duration_sec": 5.0,
+          "dialogue": null
+        },
+        {
+          "id": "s3_shot2",
+          "description": "Over-shoulder shot from behind Leo and Maya, looking up at the kite flying gracefully",
+          "characters": [
+            "leo",
+            "maya"
+          ],
+          "camera": "over_shoulder",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    }
+  ]
+}

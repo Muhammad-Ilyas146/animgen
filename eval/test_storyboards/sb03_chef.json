@@ -1,0 +1,101 @@
+{
+  "title": "Chef's First Soup",
+  "style": "realistic, warm lighting",
+  "characters": [
+    {
+      "id": "elara",
+      "name": "Elara",
+      "appearance": "young woman with dark hair tied back, wearing a tall white chef's hat and a clean white chef's jacket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "setting": "bustling professional kitchen, daytime",
+      "shots": [
+        {
+          "id": "s1_shot1",
+          "description": "Elara stands at a prep station, looking nervously at ingredients, other chefs move quickly in the background.",
+          "characters": [
+            "elara"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot2",
+          "description": "Close-up on Elara's hands meticulously chopping vegetables on a cutting board.",
+          "characters": [
+            "elara"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "setting": "bustling professional kitchen, daytime",
+      "shots": [
+        {
+          "id": "s2_shot1",
+          "description": "Elara stirs a large pot of soup on a stove, steam gently rising, her brow furrowed in concentration.",
+          "characters": [
+            "elara"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s2_shot2",
+          "description": "A wider shot of Elara at the stove, surrounded by other kitchen activity, but her focus is solely on the pot.",
+          "characters": [
+            "elara"
+          ],
+          "camera": "wide",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "setting": "bustling professional kitchen, daytime",
+      "shots": [
+        {
+          "id": "s3_shot1",
+          "description": "Elara carefully spoons a small amount of soup into a tasting spoon, her hand trembling slightly.",
+          "characters": [
+            "elara"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        },
+        {
+          "id": "s3_shot2",
+          "description": "Elara brings the spoon to her mouth, her eyes closed in anticipation as she tastes the soup.",
+          "characters": [
+            "elara"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        },
+        {
+          "id": "s3_shot3",
+          "description": "Elara's eyes open slowly, a wide, relieved smile spreading across her face as she savors the taste.",
+          "characters": [
+            "elara"
+          ],
+          "camera": "close_up",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    }
+  ]
+}

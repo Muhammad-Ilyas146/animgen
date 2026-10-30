@@ -1,0 +1,123 @@
+{
+  "title": "The Seashell Treasure",
+  "style": "classic adventure animation",
+  "characters": [
+    {
+      "id": "captain_ruby",
+      "name": "Captain Ruby",
+      "appearance": "young girl with dark braided hair, red bandana, black eyepatch over left eye, striped shirt, brown vest, baggy pants, and sturdy boots"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1_beach_walk",
+      "setting": "secluded tropical beach, sunny day",
+      "shots": [
+        {
+          "id": "s1_shot1",
+          "description": "Captain Ruby walks along the shoreline, scanning the sand with a determined look.",
+          "characters": [
+            "captain_ruby"
+          ],
+          "camera": "wide",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s2_discovery",
+      "setting": "secluded tropical beach, sunny day",
+      "shots": [
+        {
+          "id": "s2_shot1",
+          "description": "Captain Ruby stops, her gaze fixed on something partially buried in the sand.",
+          "characters": [
+            "captain_ruby"
+          ],
+          "camera": "medium",
+          "duration_sec": 3.0,
+          "dialogue": null
+        },
+        {
+          "id": "s2_shot2",
+          "description": "A close-up reveals a weathered wooden chest, half-covered by sand.",
+          "characters": [],
+          "camera": "close_up",
+          "duration_sec": 2.0,
+          "dialogue": null
+        },
+        {
+          "id": "s2_shot3",
+          "description": "Captain Ruby kneels, brushing sand away from the chest with her hands.",
+          "characters": [
+            "captain_ruby"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s3_opening_chest",
+      "setting": "secluded tropical beach, sunny day",
+      "shots": [
+        {
+          "id": "s3_shot1",
+          "description": "Captain Ruby struggles slightly with the rusty latch of the chest.",
+          "characters": [
+            "captain_ruby"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s3_shot2",
+          "description": "Her hands pry the heavy lid open, revealing the dark interior.",
+          "characters": [
+            "captain_ruby"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s4_the_treasure",
+      "setting": "secluded tropical beach, sunny day",
+      "shots": [
+        {
+          "id": "s4_shot1",
+          "description": "Captain Ruby peers into the chest, revealing a single, iridescent seashell resting on the bottom.",
+          "characters": [
+            "captain_ruby"
+          ],
+          "camera": "over_shoulder",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s4_shot2",
+          "description": "A close-up on the beautiful, spiral seashell inside the chest.",
+          "characters": [],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        },
+        {
+          "id": "s4_shot3",
+          "description": "Captain Ruby looks up, a small, knowing smile playing on her lips.",
+          "characters": [
+            "captain_ruby"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        }
+      ]
+    }
+  ]
+}

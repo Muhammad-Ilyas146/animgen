@@ -1,0 +1,117 @@
+{
+  "title": "Sparky's Birthday Blunder",
+  "style": "playful 2D animation",
+  "characters": [
+    {
+      "id": "sparky",
+      "name": "Sparky",
+      "appearance": "tiny, plump purple dragon with small, iridescent wings and a short, wagging tail"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1_setup",
+      "setting": "festive dining table with a birthday cake",
+      "shots": [
+        {
+          "id": "s1_shot1",
+          "description": "A colorful birthday cake with a single candle sits on a table adorned with streamers. Sparky flies into view.",
+          "characters": [
+            "sparky"
+          ],
+          "camera": "wide",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot2",
+          "description": "Sparky hovers close to the unlit candle, looking determined.",
+          "characters": [
+            "sparky"
+          ],
+          "camera": "medium",
+          "duration_sec": 3.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s2_attempt",
+      "setting": "festive dining table with a birthday cake",
+      "shots": [
+        {
+          "id": "s2_shot1",
+          "description": "Close-up on Sparky's snout as a tiny wisp of smoke emerges, failing to light the candle.",
+          "characters": [
+            "sparky"
+          ],
+          "camera": "close_up",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s2_shot2",
+          "description": "Sparky puffs out his chest, taking a deep breath, eyes squinting in concentration.",
+          "characters": [
+            "sparky"
+          ],
+          "camera": "medium",
+          "duration_sec": 3.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s3_accident",
+      "setting": "festive dining table with a birthday cake",
+      "shots": [
+        {
+          "id": "s3_shot1",
+          "description": "Sparky's face scrunches up, building to a powerful sneeze.",
+          "characters": [
+            "sparky"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        },
+        {
+          "id": "s3_shot2",
+          "description": "Sparky lets out a fiery sneeze, a stream of flame missing the candle but hitting a nearby party hat, which instantly ignites.",
+          "characters": [
+            "sparky"
+          ],
+          "camera": "medium",
+          "duration_sec": 5.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s4_reaction",
+      "setting": "festive dining table with a birthday cake",
+      "shots": [
+        {
+          "id": "s4_shot1",
+          "description": "Sparky's eyes widen in shock, his mouth agape, looking at the burning hat.",
+          "characters": [
+            "sparky"
+          ],
+          "camera": "close_up",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s4_shot2",
+          "description": "Sparky hovers guiltily, looking from the still-unlit candle to the smoldering party hat.",
+          "characters": [
+            "sparky"
+          ],
+          "camera": "wide",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "title": "The Alchemist's Butterfly",
+  "style": "classic fantasy animation",
+  "characters": [
+    {
+      "id": "wizard_alatar",
+      "name": "Alatar",
+      "appearance": "old wizard with a very long white beard, deep blue robes, and a tall, pointed hat"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1_tower",
+      "setting": "dusty, circular wizard's tower, filled with ancient books and glowing vials, night",
+      "shots": [
+        {
+          "id": "s1_shot1",
+          "description": "Wizard Alatar, with his long white beard, intently stirs a large, bubbling cauldron with a gnarled wooden ladle.",
+          "characters": [
+            "wizard_alatar"
+          ],
+          "camera": "medium",
+          "duration_sec": 5.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot2",
+          "description": "The cauldron bubbles vigorously, and a shimmering, glowing blue butterfly slowly emerges from the steam, fluttering upwards.",
+          "characters": [],
+          "camera": "close_up",
+          "duration_sec": 6.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot3",
+          "description": "Alatar watches with a gentle smile as the glowing blue butterfly circles once around his head, then flies towards an open window.",
+          "characters": [
+            "wizard_alatar"
+          ],
+          "camera": "medium",
+          "duration_sec": 5.0,
+          "dialogue": null
+        }
+      ]
+    }
+  ]
+}

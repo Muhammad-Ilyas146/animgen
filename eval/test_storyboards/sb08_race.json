@@ -1,0 +1,111 @@
+{
+  "title": "Mountain Race Finale",
+  "style": "dynamic sports broadcast animation",
+  "characters": [
+    {
+      "id": "rider_yellow",
+      "name": "Alex",
+      "appearance": "Muscular male cyclist, yellow jersey, black shorts, aerodynamic helmet, intense expression"
+    },
+    {
+      "id": "rider_green",
+      "name": "Ben",
+      "appearance": "Lean male cyclist, green jersey, black shorts, aerodynamic helmet, focused expression"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1_descent",
+      "setting": "winding mountain road, sunny day, sparse trees",
+      "shots": [
+        {
+          "id": "s1_shot1",
+          "description": "Wide shot of two cyclists, rider_yellow and rider_green, side-by-side, speeding down a winding mountain road.",
+          "characters": [
+            "rider_yellow",
+            "rider_green"
+          ],
+          "camera": "wide",
+          "duration_sec": 5.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot2",
+          "description": "Medium shot of rider_yellow leaning into a turn, slightly ahead, pushing hard.",
+          "characters": [
+            "rider_yellow"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        },
+        {
+          "id": "s1_shot3",
+          "description": "Medium shot of rider_green gaining ground, eyes fixed forward, muscles straining.",
+          "characters": [
+            "rider_green"
+          ],
+          "camera": "medium",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s2_neck_and_neck",
+      "setting": "straight stretch of mountain road, approaching finish",
+      "shots": [
+        {
+          "id": "s2_shot1",
+          "description": "Low angle close-up of the front wheels of both bikes, almost touching, spinning rapidly.",
+          "characters": [
+            "rider_yellow",
+            "rider_green"
+          ],
+          "camera": "close_up",
+          "duration_sec": 3.0,
+          "dialogue": null
+        },
+        {
+          "id": "s2_shot2",
+          "description": "Over-shoulder shot from behind rider_yellow, showing rider_green's helmet and shoulder right next to them.",
+          "characters": [
+            "rider_yellow",
+            "rider_green"
+          ],
+          "camera": "over_shoulder",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    },
+    {
+      "id": "s3_finish_line",
+      "setting": "finish line banner across the road, small crowd cheering",
+      "shots": [
+        {
+          "id": "s3_shot1",
+          "description": "Wide shot of both cyclists crossing the finish line simultaneously, arms slightly raised in exhaustion.",
+          "characters": [
+            "rider_yellow",
+            "rider_green"
+          ],
+          "camera": "wide",
+          "duration_sec": 5.0,
+          "dialogue": null
+        },
+        {
+          "id": "s3_shot2",
+          "description": "Close-up of rider_yellow and rider_green's faces, side-by-side, panting but with a shared look of respect and triumph.",
+          "characters": [
+            "rider_yellow",
+            "rider_green"
+          ],
+          "camera": "close_up",
+          "duration_sec": 4.0,
+          "dialogue": null
+        }
+      ]
+    }
+  ]
+}
