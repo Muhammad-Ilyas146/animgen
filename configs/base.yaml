@@ -1,0 +1,10 @@
+project: animgen
+seed: 42
+image:
+  width: 512
+  height: 512
+video:
+  fps: 8
+  frames_per_clip: 16
+models:
+  base_sd: "stable-diffusion-v1-5/stable-diffusion-v1-5"
