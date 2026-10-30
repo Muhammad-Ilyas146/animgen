@@ -9,3 +9,8 @@
 - Run ID 2026-10-30_all_plainsd: 10 storyboards, 61 images, seed = 42 + shot index, 25 steps, cfg 7.5, 512x512
 - Result: style consistent, character identity not (fox scarf missing, wrong color, body shape drifts)
 - Known issue: 2 prompts (sb07, sb08) exceed CLIP's 77 tokens and were truncated. Fix in build_shot_prompt before Step 5
+
+## 2026-10-30 | Ilyas | Step 4e: baseline metrics
+- Added eval/metrics.py (CLIPScore, DINOv2 identity) and eval/run_eval.py
+- Baseline 2026-10-30_all_plainsd: CLIP 33.83 (61 shots), DINO identity 0.52 (per character rows; leo/maya and farmer/dog share shots, so double-counted)
+- Repo fix: parser/prompts.py had been overwritten with prompt-builder code in the Step 4 commit; restored from 0be9132 and recreated keyframes/prompting.py
