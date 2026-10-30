@@ -213,6 +213,14 @@ tempCodeRunnerFile.py
 
 # Marimo
 marimo/_static/
+
+*.safetensors
+*.ckpt
+*.pt
+*.mp4
+*.png
+*.jpg
+.env
 marimo/_lsp/
 __marimo__/
 
